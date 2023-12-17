@@ -1,0 +1,63 @@
+body {
+    background-color: #282c35;
+    color: #abb2bf;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    margin: 0;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.2; /* Set the desired opacity value */
+}
+
+#main-terminal {
+    max-width: 800px;
+    margin: 150px auto;
+    font-size: 16px;
+}
+
+#chat1, #chat2, #chat3, #chat4, #chat5{
+	font-family: 'Source Code Pro', monospace;
+	color: #fff;
+	font-weight: lighter;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:14.5px;
+	display: inline;	
+}
+.terminal-link {
+    color: #61afef;
+}
+
+#default-tag {
+	color: #89d408;
+}
+#colon {
+	color: #83ff08;
+}
+#response-line {
+    color: #e4f7c3;
+}
+#sectags{
+	color: #caf77c;
+}
+#date{
+	float: right;
+}
+
+.attr-link {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
